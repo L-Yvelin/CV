@@ -49,6 +49,7 @@ body{
 .apropos{
 	display: inline-block;
 	border-bottom: 20px solid #5b5d8f;
+	width: 100%;
 
 }
 p{
