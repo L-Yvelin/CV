@@ -2,7 +2,6 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	overflow: hidden;
 	margin: 0;
 	background-color: #314a52;
 	color: #dee0f1;
