@@ -6,8 +6,18 @@ body{
 	background-color: #314a52;
 	color: #dee0f1;
 }
-.left { -ms-overflow-style: none; // IE 10+ overflow: -moz-scrollbars-none; // Firefox }
-.left::-webkit-scrollbar { display: none; // Safari and Chrome } 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+} 
 .topnav {
 	z-index: 1000;
 	position: fixed;
