@@ -6,13 +6,6 @@ body{
 	background-color: #314a52;
 	color: #dee0f1;
 }
-.example::-webkit-scrollbar {
-  display: none;
-}
-.example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 .topnav {
 	z-index: 1000;
 	position: fixed;
