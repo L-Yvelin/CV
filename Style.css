@@ -6,6 +6,8 @@ body{
 	background-color: #314a52;
 	color: #dee0f1;
 }
+.left { -ms-overflow-style: none; // IE 10+ overflow: -moz-scrollbars-none; // Firefox }
+.left::-webkit-scrollbar { display: none; // Safari and Chrome } 
 .topnav {
 	z-index: 1000;
 	position: fixed;
