@@ -10,8 +10,8 @@ body{
 	z-index: 1000;
 	position: fixed;
 	width: 100%;
-	border-top: 10px solid #5b5d8f;
-	border-bottom: 5px solid #5b5d8f;
+	border-top: 10px solid #dee0f1;
+	border-bottom: 5px solid #dee0f1;
 	background-color: #bfc3db;
 	display: flex;
 	color: #f2f2f2;
