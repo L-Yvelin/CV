@@ -10,9 +10,9 @@ body{
 	z-index: 1000;
 	position: fixed;
 	width: 100%;
-	border-top: 10px solid #dee0f1;
-	border-bottom: 5px solid #dee0f1;
-	background-color: #bfc3db;
+	//border-top: 10px solid #dee0f1;
+	//border-bottom: 5px solid #dee0f1;
+	background-color: black;
 	display: flex;
 	color: #f2f2f2;
 	padding: 10px 10px;
@@ -33,7 +33,7 @@ body{
 	transition: background .5s ease-in;
 	margin: auto;
 	text-decoration: none;
-	background-color: #314a52;
+	background-color: #1c2164;
 	color: #dee0f1;
 	padding: 10px;
 	border-radius: 10px;
