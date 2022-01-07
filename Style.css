@@ -2,7 +2,7 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	width: 100%;
+	max-width: 100%;
 	margin: 0;
 	background-color: #314a52;
 	color: #dee0f1;
