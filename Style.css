@@ -167,3 +167,8 @@ body{
     height: 5.5rem;
     margin-top: -5.5rem;
 }
+@media screen and (max-width: 565px) {
+	.topnav{
+	display: none;
+	}
+}
