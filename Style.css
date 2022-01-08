@@ -7,6 +7,7 @@ body{
 	color: #dee0f1;
 }
 .topnav {
+	flex-wrap: wrap;
 	position: fixed;
 	width: 100%;
 	border-bottom: 0.3em solid #1c2164;
@@ -137,7 +138,7 @@ body{
 			font-size: 1.5rem;
 		}
 		.listeparcours{
-			flex-wrap: nowrap;
+			flex-wrap: wrap;
 			display: flex;
 			padding: 0px 5px 0px 5px;
 		}
