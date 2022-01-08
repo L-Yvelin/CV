@@ -178,4 +178,7 @@ body{
 		flex-basis: 100%;
 		margin-bottom: 1rem;
 	}
+	#moi{
+		width: 80%;
+	}
 }
