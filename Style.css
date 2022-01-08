@@ -176,5 +176,6 @@ body{
 	}
 	.parcours{
 		flex-basis: 100%;
+		margin-bottom: 1rem;
 	}
 }
