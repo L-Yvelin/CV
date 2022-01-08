@@ -150,7 +150,7 @@ body{
 			padding: 20px;
 			margin: auto;
 			border-radius: 10px;
-			font-size: 5vw;
+			font-size: 25px;
 			cursor: default;
 			text-align: center;
 		}
@@ -170,5 +170,6 @@ body{
 @media screen and (max-width: 565px) {
 	.topnav{
 	display: none;
+	font-size: 8vw;
 	}
 }
