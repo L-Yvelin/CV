@@ -187,4 +187,7 @@ body{
 	#bas{
 		padding-top: 1vh;
 	}
+	.fleche{
+		content: '↓';
+	}
 }
