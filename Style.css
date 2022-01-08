@@ -174,4 +174,7 @@ body{
 	.parcours, .topnav, .elementliste{
 		font-size: 8vw;
 	}
+	.parcours{
+		flex-basis: 100%;
+	}
 }
