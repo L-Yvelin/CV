@@ -203,4 +203,7 @@ body{
 		transform: translateX(-50%); 
 		overflow: visible; 
 	}
+	#texte{
+		font-size: 130%;
+	}
 }
