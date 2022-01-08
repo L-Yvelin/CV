@@ -193,7 +193,7 @@ body{
 	}
 	.fleche:after {
 		visibility: visible;
-		position: relative;
+		position: absolute;
 		top: 0;
 		left: 0;
 		content: "↓";
