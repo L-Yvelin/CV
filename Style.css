@@ -169,7 +169,9 @@ body{
 }
 @media screen and (max-width: 565px) {
 	.topnav{
-	display: none;
-	font-size: 8vw;
+		display: none;
+	}
+	.parcours, .topnav, .elementliste{
+		font-size: 8vw;
 	}
 }
