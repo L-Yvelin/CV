@@ -184,4 +184,7 @@ body{
 	.page{
 		padding-top: 0px;
 	}
+	#bas{
+		padding-top: 1vh;
+	}
 }
