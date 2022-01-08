@@ -187,7 +187,15 @@ body{
 	#bas{
 		padding-top: 1vh;
 	}
-	.fleche{
-		content: '↓';
+	.fleche {
+		visibility: hidden;
+		position: relative;
 	}
+	.fleche:after {
+		visibility: visible;
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "↓";
+}
 }
