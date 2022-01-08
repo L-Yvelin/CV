@@ -181,4 +181,7 @@ body{
 	#moi{
 		width: 80%;
 	}
+	.page{
+		padding-top: 0px;
+	}
 }
