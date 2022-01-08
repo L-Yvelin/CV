@@ -13,7 +13,7 @@ body{
 	background-color: #2B3F46;
 	display: flex;
 	color: #f2f2f2;
-	padding: 10px 10px;
+	padding: 0.5em 0.5em;
 	font-size: 25px;
 }
 .topnav a:hover {
@@ -21,126 +21,148 @@ body{
 	color: #5b5d8f;
 }
 .page{
-	padding-top: 120px;
+	padding-top: 7em;
 }
-
-#nom{
-	text-decoration: underline;
-}
-.menu{
-	transition: background .5s ease-in;
-	margin: auto;
-	text-decoration: none;
-	background-color: #1c2164;
-	color: #dee0f1;
-	padding: 10px;
-	border-radius: 10px;
-	font-size: 25px;
-}
-#moi{
-	display: block;
-	margin: auto;
-	border-radius: 10%;
-	width: 20%;
-}
-p{
-	font-size: 50px;
-}
-#postext{
-	display: flex;
-	border-bottom: 20px solid #5b5d8f;
-	padding-bottom: 25px;
-}
-#texte{
-	margin: auto;
-	border: 3px solid #5b5d8f;
-	text-align: justify;
-	width: 70%;
-	font-size: 200%;
-	border-radius: 20px;
-	padding: 20px;
-}
-.liste{
-	flex-wrap: wrap;
-	display: flex;
-	padding-bottom: 40px;
-	margin: 20px 2px 0px 2px
-}
-.titre{
-	margin-top:10px;
-	text-align: center;
-	color: #bfc3db;
-	font-size: 50px;
-}
-.elementliste{
-	text-decoration: none;
-	background-color: #5b5d8f;
-	color: #dee0f1;
-	padding: 20px;
-	margin: 20px auto;
-	border-radius: 10px;
-	font-size: 50px;
-	cursor: default;
-	user-select: none;
-}
-.fleche{
-	user-select: none;
-	text-decoration: none;
-	color: #dee0f1;
-	padding: 20px;
-	margin: 20px auto;
-	border-radius: 10px;
-	font-size: 50px;
-	cursor: default;
-}
-.elementliste:hover{
-	background-color: #dee0f1;
-	color: #5b5d8f;
-	transition: background .5s ease-in;
-}
-#etoile{
-	margin-top: 0px;
-	text-align: right;
-	padding-right:5px;
-	font-size: 1.0rem;
-	border-bottom: 20px solid #5b5d8f;
-}
-.listeparcours{
-	flex-wrap: nowrap;
-	display: flex;
-	padding: 0px 5px 0px 5px;
-}
-.parcours{
-	user-select: none;
-	background-color: #1c2164;
-	text-decoration: none;
-	color: #dee0f1;
-	padding: 20px;
-	margin: auto;
-	border-radius: 10px;
-	font-size: 40px;
-	cursor: default;
-	text-align: center;
-}
-.parcours:hover{
-	background-color: green;
-	transition: background .5s ease-in;
-}
-#contact{
-	border-top: 20px solid #5b5d8f;
-	padding-top: 20px;
-}
-#pdf{
-	text-align: center;
-	padding-top: 20px;
-	border-top: 20px solid #5b5d8f;
-}
-#boutonpdf{
-	cursor: pointer;
-}
+	.menu{
+		transition: background .5s ease-in;
+		margin: auto;
+		text-decoration: none;
+		background-color: #1c2164;
+		color: #dee0f1;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		font-size: 1em;
+	}
+	
+	#nom{
+		height: 100vh;
+	}
+		#moi{
+			display: block;
+			margin: auto;
+			border-radius: 10%;
+			width: 20%;
+		}
+		#bas{
+			text-decoration: none;
+			color: #bfc3db;
+			font-size: 3rem;
+			padding-top: 30vh;
+			margin: 0 auto;
+			display: block;
+			text-align: center;
+		}
+		
+	#apropos{
+		border-bottom: 1rem solid #5b5d8f;
+		margin-top: 2rem;
+	}
+		#postext{
+			display: flex;
+			padding-bottom: 2rem;
+		}
+		#texte{
+			margin: 2rem;
+			border: 3px solid #5b5d8f;
+			text-align: justify;
+			width: 100%;
+			font-size: 200%;
+			border-radius: 20px;
+			padding: 0.5rem;
+		}
+		
+	#competences{
+		border-bottom: 1rem solid #5b5d8f;
+		margin-top: 2rem;
+	}
+	
+	#parcours{
+		border-bottom: 1rem solid #5b5d8f;
+		margin-top: 2rem;
+	}
+	
+	#contact{
+		border-bottom: 1rem solid #5b5d8f;
+		margin-top: 2rem;
+	}
+	
+	#pdf{
+		text-align: center;
+		margin-top: 2rem;
+		border-bottom: 1rem solid #5b5d8f;
+	}
+	
+		.liste{
+			flex-wrap: wrap;
+			display: flex;
+			padding-bottom: 40px;
+			margin: 20px 2px 0px 2px
+		}
+		.titre{
+			margin-top:10px;
+			text-align: center;
+			color: #bfc3db;
+			font-size: 50px;
+		}
+		.elementliste{
+			text-decoration: none;
+			background-color: #5b5d8f;
+			color: #dee0f1;
+			padding: 20px;
+			margin: 20px auto;
+			border-radius: 10px;
+			font-size: 50px;
+			cursor: default;
+			user-select: none;
+		}
+		.fleche{
+			user-select: none;
+			text-decoration: none;
+			color: #dee0f1;
+			padding: 20px;
+			margin: 20px auto;
+			border-radius: 10px;
+			font-size: 50px;
+			cursor: default;
+		}
+		.elementliste:hover{
+			background-color: #dee0f1;
+			color: #5b5d8f;
+			transition: background .5s ease-in;
+		}
+		#etoile{
+			margin-top: 0px;
+			text-align: right;
+			padding-right:5px;
+			font-size: 1.5rem;
+		}
+		.listeparcours{
+			flex-wrap: nowrap;
+			display: flex;
+			padding: 0px 5px 0px 5px;
+		}
+		.parcours{
+			user-select: none;
+			background-color: #1c2164;
+			text-decoration: none;
+			color: #dee0f1;
+			padding: 20px;
+			margin: auto;
+			border-radius: 10px;
+			font-size: 40px;
+			cursor: default;
+			text-align: center;
+		}
+		.parcours:hover{
+			background-color: green;
+			transition: background .5s ease-in;
+		}
+		#boutonpdf{
+			cursor: pointer;
+		}
 :target::before {
     content: '';
     display: block;
-    height:      100px;
-    margin-top: -100px;
+    height: 5.5rem;
+    margin-top: -5.5rem;
 }
