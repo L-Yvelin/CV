@@ -164,6 +164,7 @@ body{
 		#boutonpdf{
 			cursor: pointer;
 		}
+
 :target::before {
     content: '';
     display: block;
