@@ -40,7 +40,7 @@ body{
 		height: 100vh;
 	}
 		#moi{
-			max-age=15552000
+			max-age=15552000;
 			display: block;
 			margin: auto;
 			border-radius: 10%;
