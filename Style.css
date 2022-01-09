@@ -1,3 +1,4 @@
+Cache-Control: public, max-age=31536000
 html{
 	scroll-behavior: smooth;
 }
@@ -39,6 +40,7 @@ body{
 		height: 100vh;
 	}
 		#moi{
+			max-age=15552000
 			display: block;
 			margin: auto;
 			border-radius: 10%;
