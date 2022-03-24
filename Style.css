@@ -248,4 +248,7 @@ body{
 		font-size: 130%;
 		margin: 0.1rem;
 	}
+	.elementliste{
+		font-size: 7vw;
+	}
 }
