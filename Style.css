@@ -56,7 +56,7 @@ body{
 			margin: auto;
 			border-radius: 10%;
 			width: 20vw;
-			height: 20vw;
+			/*height: 20vw;*/
 		}
 		#bas{
 			text-decoration: none;
