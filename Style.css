@@ -53,7 +53,7 @@ body{
 		#moi{
 			display: block;
 			margin: auto;
-			border-radius: 7%;
+			border-radius: 10px;
 		}
 		#bas{
 			text-decoration: none;
